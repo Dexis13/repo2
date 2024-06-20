@@ -1,0 +1,184 @@
+body {
+ 
+    overflow-x: hidden;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.search-container {
+    position: relative;
+    left: 1315px;
+    transform: translateY(-810px);
+   
+}
+.search-container input[type="text"] {
+    border-radius: 40px; 
+    padding: 10px;
+    text-align: left;
+    font-size: small;
+    outline: 0px;
+    border:0px;
+}
+.search-container button {
+    border-radius: 10px;
+    padding: 10px; 
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    transform: translateY(19px);
+    right: 15px;
+}
+
+#main-heading::before {
+    content: "";
+    position:absolute;
+    top: -37px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: url(https://scontent.fmnl4-2.fna.fbcdn.net/v/t31.18172-8/21640945_10156138454160639_4285234259872381891_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE9jjpeBgnczLXJ-Nd8hAmdKpg4StJMlP0qmDhK0kyU_TXKnDPJ5qnB23Z7awyzOtNm-12V7Qmtpr5q6YPin-Q5&_nc_ohc=bfccdbE5SXIAX98MNUA&_nc_oc=AQlYOS4bgN4A-QXZrFhvcmxtJeSfI_WS-JEgjzb15v8SW19Xa5bOdz7aDHX4rgF-Bag&_nc_ht=scontent.fmnl4-2.fna&oh=00_AfDVju_oa8PLWThQ34Qia4ZFEXXe2qKBAs6uhPTYlY7low&oe=661520F5) center/cover;
+    z-index: -1;
+    filter: brightness(60%);
+    transform: translateX(200px);
+    
+}
+#main-heading {
+    padding: 100px;
+    text-align: center;
+    color:white;
+    font-size: 70px;
+    margin-top: 190px;
+    position: relative;
+    transform: translateX(-200px);
+    font-weight: bold;
+}    
+#ama-logo {
+    position: relative;
+    margin: 0%;
+    width: 175px;
+    left : 515px;
+    transform: translateY(-73%);
+    
+}
+#aclc-logo {
+    width: 300px;
+}
+
+.logo-container {
+    position: relative;
+    top: 50px;
+    padding: 5px;
+    text-align: center;
+    background-color: maroon;
+    width: 200%;
+    top: -505px;
+    transform: translateX(-40%);
+}
+.top-nav {
+    background-color: white;
+    color: white;
+    text-align: right;
+    padding-right: 250px;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;   
+}
+.top-nav li {
+    display: inline;    
+    margin-right: 20px;
+    padding: 7px;
+}
+.top-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.top-nav a:hover {
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+}
+
+#Header2 {
+    text-align: left;
+    transform: translateY(-1150%);
+    text-align: center;
+    font-size: 200%;
+    margin-top: 0%;
+    margin-bottom: -240px;
+}
+#Welcome {
+    text-align: left;
+    transform: translateY(-100%);
+    margin:600px;
+    font-size: large;
+    margin-top: 0%;
+    position: relative;
+    left: 100px;
+}
+
+#details1{
+    text-align: center;
+    position: relative;
+    right: 600px;
+    margin: 700px;
+    transform: translateY(-750px);
+    font-size: larger;
+    background-color: maroon;
+    padding: 50px;
+    padding-top: 10px;
+    background-blend-mode: color;
+    border-radius: 50px;
+    color: white;
+    border-left:solid black  5px ;
+}
+#details2{
+    text-align: center;
+    position: relative;
+    left: 600px;
+    margin: 700px;
+    transform: translateY(-1820px);
+    font-size: larger;
+    background-color: maroon;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 65px;
+    background-blend-mode: color;
+    border-radius: 50px;
+    color: white;
+    border-left:solid black  5px ;
+    
+}
+#details3{
+    text-align: center;
+    position: relative;
+    margin: 700px;
+    transform: translateY(-2890px);
+    font-size: larger;
+    background-color: maroon;
+    padding: 40px;
+    padding-top: 10px;
+    background-blend-mode: color;
+    border-radius: 50px;
+    color: white;
+    border-left:solid black  5px ;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: gainsboro;
+    font-size: small;
+    
+}
